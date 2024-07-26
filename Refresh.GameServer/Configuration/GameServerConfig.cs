@@ -35,7 +35,7 @@ public class GameServerConfig : Config
     /// <summary>
     /// The base URL that LBP3 uses to grab config files like `network_settings.nws`.
     /// </summary>
-    public string GameConfigStorageUrl { get; set; } = "https://littlebigliberty.com/LITTLEBIGPLANETPS3_XML";
+    public string GameConfigStorageUrl { get; set; } = "https://littlebigliberty.com/lbp";
     public bool AllowInvalidTextureGuids { get; set; } = false;
     public bool BlockAssetUploads { get; set; } = false;
     /// <seealso cref="GameUserRole.Trusted"/>
