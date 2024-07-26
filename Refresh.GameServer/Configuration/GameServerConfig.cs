@@ -22,8 +22,8 @@ public class GameServerConfig : Config
     public bool AllowUsersToUseIpAuthentication { get; set; } = false;
     public bool UseTicketVerification { get; set; } = true;
     public bool RegistrationEnabled { get; set; } = true;
-    public string InstanceName { get; set; } = "Refresh";
-    public string InstanceDescription { get; set; } = "A server running Refresh!";
+    public string InstanceName { get; set; } = "Liberty";
+    public string InstanceDescription { get; set; } = "niko bellic real idk what to put here uhhhh lbp yay wahaooooo";
     public bool MaintenanceMode { get; set; } = false;
     public bool RequireGameLoginToRegister { get; set; } = false;
     /// <summary>
@@ -31,11 +31,11 @@ public class GameServerConfig : Config
     /// If this is disabled, large enough responses will cause LBP to overflow its read buffer and eventually corrupt its own memory to the point of crashing.
     /// </summary>
     public bool UseDeflateCompression { get; set; } = true;
-    public string WebExternalUrl { get; set; } = "https://refresh.example.com";
+    public string WebExternalUrl { get; set; } = "https://littlebigliberty.com";
     /// <summary>
     /// The base URL that LBP3 uses to grab config files like `network_settings.nws`.
     /// </summary>
-    public string GameConfigStorageUrl { get; set; } = "https://refresh.example.com/lbp";
+    public string GameConfigStorageUrl { get; set; } = "https://littlebigliberty.com/LITTLEBIGPLANETPS3_XML";
     public bool AllowInvalidTextureGuids { get; set; } = false;
     public bool BlockAssetUploads { get; set; } = false;
     /// <seealso cref="GameUserRole.Trusted"/>
